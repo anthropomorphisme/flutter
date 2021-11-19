@@ -40,6 +40,26 @@
             <p>После этого можно закрыть Android Studio. Далее <b>настроим Flutter</b>.</p>
             <p>После установки Flutter SDK запускаем коммандную строку и переходим в папку с установленным SDK:</p>
             <p><img src="images/screen_4.jpg" alt="screen Flutter SDK path"></p>
+            <p>Затем <b>указываем путь к Android Studio</b>:</p>
+            <blockquote>
+            <p>flutter config --android-studio-dir "C:\Program Files\Android\Android Studio"</p>
+            </blockquote>
+            <p><b>Указываем путь к Android SDK</b>:</p>
+            <blockquote>
+            <p>flutter config --android-sdk "F:\PC\programming\Android_SDK"</p>
+            </blockquote>
+            <p>После чего <b>принимаем лицензионное соглашение</b>:</p>
+            <blockquote>
+            <p>flutter doctor --android-licenses</p>
+            </blockquote>
+            <p>После всех этих действий нужно проверить настройки Flutter:</p>
+            <blockquote>
+            <p>flutter doctor</p>
+            </blockquote>
+            <p>На скрине видно, что Flutter настроен на разработку под Android Studio (не настроено под Chrome и Visual Studio):</p>
+            <p><img src="images/screen_5.jpg" alt="screen Flutter doctor"></p>
+            <p>Теперь запускаем Android Studio и переходим в настройки Plugins и <b>скачиваем плагины Dart и Flutter</b>:</p>
+            <p><img src="images/screen_6.jpg" alt="screen Android Studio Plugins"></p>
           </section>
         </div>
     </div>
